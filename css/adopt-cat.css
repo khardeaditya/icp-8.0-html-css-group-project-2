@@ -112,3 +112,7 @@ body {
     background-color:#ac1010;
     transform: scale(1.1);
 }
+.header{
+    text-align: center;
+    padding-top: 70px;
+}
