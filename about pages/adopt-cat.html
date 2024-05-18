@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-logo {
+            margin-left: -10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .navbar {
+            background-color: #ACE1AF;
+            width: 100%;
+            height: 60.5px;
+            position: fixed;
+            top: 0px;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        .nav-items {
+
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .nav-img {
+            height: 30px;
+            margin-right: 6px;
+            border-radius: 50%;
+        }
+
+        .nav-text {
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(19, 4, 4);
+
+        }
+
+        .nav-items:hover {
+            background-color: #5b7b5d;
+            transition: 1s;
+        }
+        .cat-card {
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            width: calc(25% - 40px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            float: left;
+            text-align: center;
+        }
+        .cat-card img {
+            max-width: 100%;
+            border-radius: 8px;
+            height: auto;
+        }
+        .cat-2{
+            height: auto;
+        }
+        .cat-card h2 {
+            margin: 10px 0;
+            color: #495057;
+        }
+        .cat-card p {
+            margin: 5px 0;
+            color: #6c757d;
+        }
+        .adopt-btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .adopt-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <img src="./images/tpn-logo-v1.png" alt="photo" style="height: 50px;" />
+
+
+        </div>
+        <div class="nav-items">
+            <img src="./images/home icons/home.png" alt="home icon" class="nav-img">
+            <span class="nav-text">Home </span>
+        </div>
+        <div class="nav-items">
+            <img src="./images/home icons/about.png" alt="home icon" class="nav-img">
+            <span class="nav-text">About </span>
+        </div>
+        <div class="nav-items">
+            <img src="./images/home icons/event.png" alt="home icon" class="nav-img">
+            <span class="nav-text">Events </span>
+        </div>
+        <div class="nav-items">
+            <img src="./images/home icons/get involved.png" alt="home icon" class="nav-img">
+            <span class="nav-text"> Get Involved </span>
+        </div>
+        <div class="nav-items">
+            <img src="./images/home icons/adopt.jpeg" alt="home icon" class="nav-img">
+            <span class="nav-text">Adopt </span>
+        </div>
+        <div class="nav-items">
+            <img src="./images/home icons/contact.jpeg" alt="home icon" class="nav-img">
+            <span class="nav-text">Contact us </span>
+        </div>
+
+    </div>
+
+
+    <h1>Meet our Available Pets</h1>
+    <div>
+        <div class="cat-card">
+            <img src="./../images/cat images/cat1.jpeg" alt="Cat 1">
+            <h2>Boba</h2>
+            <p>Age: 2 years</p>
+            <p>Breed: Domestic short hair</p>
+            <a href="#" class="adopt-btn">Adopt Now</a>
+        </div>
+        
+        
+   </div>
+</body>
+</html>
