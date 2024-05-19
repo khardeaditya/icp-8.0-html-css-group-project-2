@@ -10,7 +10,9 @@
             padding: 0;
             margin: 0;
         }
+        .container{
 
+        }
         .nav-logo {
             margin-left: -10px;
             display: flex;
@@ -21,7 +23,7 @@
         .navbar {
             background-color: #ACE1AF;
             width: 100%;
-            height: 60.5px;
+            height: 80.5px;
             position: sticky;
             Z-index: 10;
             top: 0px;
@@ -60,16 +62,18 @@
             transition: 1s;
         }
 
-        .body-img{
+        .body-img {
             height: 900px;
             width: auto;
         }
-        .img{
+
+        .img {
             height: 700px;
             width: 100%;
-            
+
         }
-        .adopt-card{
+
+        .adopt-card {
             height: 20%;
             width: 90%;
             background-color: #fff;
@@ -80,7 +84,8 @@
             padding: 10px;
             box-shadow: 0px 0px 10px 2px #d3cbc0;
         }
-        .btn{
+
+        .btn {
             height: 50px;
             width: 20%;
             margin: 20px 0px;
@@ -91,20 +96,102 @@
             font-weight: bold;
         }
 
-
-        .content-heading{
-            text-align: center;
+        .content {
+            display: flex;
         }
-        .left-content{
+
+        .content-heading {
+            text-align: center;
+            font-size: 50px;
+            color: #515252;
+        }
+
+        .left-img {
             height: 700px;
             margin-left: 40px;
             background-color: #ACE1AF;
+        }
+
+        .right-content {
+            
+        }
+
+        .right-content-info {
+            margin-left: 30px;
+            background-color: #ACE1AF;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-content-heading-info {
+            font-size: 20px;
+        }
+
+        .card {
+            height: 150px;
+            width: 750px;
+            margin: 40px;
+            display: flex;
+align-items: center;
+border-radius: 5px;
+border: 1px solid rgb(180, 168, 168);
+        }
+        .card:hover{
+            box-shadow: 0px 0px 15px 4px  rgb(180, 168, 168);
+
+        }
+
+        .card-img {
+            height: 80px;
+            margin-right: 20px;
+        }
+       
+
+        .card-heading {
+            font-size: 30px;
+        color: #515252;
+
+        }
+
+        .card-desc {
+            font-size: 20px;
+            margin-top: -30px;
+            color: #66727c;
+        }
+
+        .adoptlove-content{
+            min-width: 100vh;
+            padding: 20px 0px;
+            background-color: #F6EEC9;
+            display: flex;
+            position: relative;
+        }
+
+        .pasw-4-life-img{
+            height: 100%;
+            border-radius: 50%;
+            position: absolute;
+            left: 20%;
+            
+        }
+        .adoptlove-card{
+            width: 30%;
+            align-items: end;
+           position: relative;
+           left: 50%;
+        }
+        .adoptlove-heading{
+          text-align: center;
+        }
+        .adoptlove-desc{
+            font-size: 20px;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-
+<div class="container">
     <div class="navbar">
         <div class="nav-logo">
             <img src="./images/tpn-logo-v1.png" alt="photo" style="height: 50px;" />
@@ -146,15 +233,67 @@
             <button class="btn">Adopt a pet</button>
         </div>
     </div>
-    <div class="content">
-        <h1 class="content-heading">Your Pet Adoption Journey With ThePetNest</h1>
-       <div>
-      <img src="./images/adopt-me.jpg" alt="adpo me" class="left-content">
-       </div>
-       <div>
-        
 
-       </div>
+    <h1 class="content-heading">Your Pet Adoption Journey With ThePetNest</h1>
+    <div class="content">
+        <div class="left-content">
+            <img src="./images/adopt-me.jpg" alt="adpo me" class="left-img">
+        </div>
+        <div class="right-content">
+            <div class="card">
+                <img src="./images/home icons/search-card.png" class="card-img">
+                <div>
+                    <h1 class="card-heading">Search Pet</h1><br>
+                    <p class="card-desc">Adopt a dog or cat who's right for you. Simply enter your city above to start
+                        your search.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/home icons/connect.png" class="card-img">
+                <div>
+                    <h1 class="card-heading">Connect</h1><br>
+                    <p class="card-desc">Once you find a pet, click "show number" to get contact info for their pet parent or rescue. Contact them to learn more about how to meet and adopt the pet.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/home icons/adopt-card.png" class="card-img">
+                <div>
+                    <h1 class="card-heading">Adopt Love</h1><br>
+                    <p class="card-desc">The rescue or pet parents will walk you through their adoption process. Prepare your home for the arrival of your fur baby to help them adjust to their new family.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/home icons/free vat card.png" class="card-img">
+                <div>
+                    <h1 class="card-heading">Free Vet Consultation</h1><br>
+                    <p class="card-desc">Free Vet Consultation
+                        ThePetNest will help your pet to settle down in its new home, once you complete the Adoption journey reach out to us for free vet consultation.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<div class="adoptlove-content">
+<img src="./images/paws for life.jpeg" class="pasw-4-life-img">
+<div class="adoptlove-card">
+    <h1 class="adoptlove-heading">#AdoptLove</h1>
+        <p class="adoptlove-desc">Approximately 1478 dogs & cats die every day on road in India. ThePetNest is on a mission to provide every dog and cat a home before 2035. It’s just one of the many ways ThePetNest! gives back and helps you become a part of something larger. Join ThePetStar Community and help setting up Pet houses in your surrounding for strays.</p>
+    </div>
+</div>
+
+
+
+   
+  
+
+
+
+
+
     </div>
 </body>
 
