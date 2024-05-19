@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-logo {
+            margin-left: -10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .navbar {
+            background-color: #ACE1AF;
+            width: 100%;
+            height: 60.5px;
+            position: sticky;
+            Z-index: 10;
+            top: 0px;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        .nav-items {
+
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-img {
+            height: 30px;
+            margin-right: 6px;
+            border-radius: 50%;
+        }
+
+        .nav-text {
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(19, 4, 4);
+
+        }
+
+        .nav-items:hover {
+            background-color: #5b7b5d;
+            transition: 1s;
+        }
+
+        .container {
+            width: 500px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: block;
+            margin: 70px auto;
+            display: block;
+            display: center;
+            box-shadow: 5px 5px 5px 5px #e6e6ff;
+
+        }
+
+        .container-img {
+            padding: 7px 10px;
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            display: block;
+            margin: 15px auto;
+        }
+
+        .label {
+            margin-left: 70px;
+            padding-top: 10px;
+        }
+
+        .input-box {
+            width: 350px;
+            height: 20px;
+            margin: 7px 10px 7px 70px;
+            padding: 5px;
+            border: #000;
+            border-radius: 15px;
+        }
+        .input-box:hover{
+            transition: 1s;
+            transform: scale(1.1);
+        }
+        
+        .btn{
+            display: block;
+            margin: 10px auto;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 15px;
+            color: #fff;
+            background-color: #000;
+        }
+        .btn:hover{
+            transition: 1s;
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="nav-logo">
+            <img src="../images/home icons/tpn-logo-v1.png" alt="photo" style="height: 50px;" />
+
+
+        </div>
+        <div class="nav-items">
+            <a href="../index.html">
+                <img src="../images/home icons/home.png" alt="home icon" class="nav-img">
+                <span class="nav-text">Home </span>
+            </a>
+        </div>
+        <div class="nav-items">
+            <img src="../images/home icons/about.png" alt="home icon" class="nav-img">
+            <span class="nav-text">About </span>
+        </div>
+        <div class="nav-items">
+            <img src="../images/home icons/event.png" alt="home icon" class="nav-img">
+            <span class="nav-text">Events </span>
+        </div>
+        <div class="nav-items">
+            <img src="../images/home icons/get involved.png" alt="home icon" class="nav-img">
+            <span class="nav-text"> Get Involved </span>
+        </div>
+        <div class="nav-items">
+            <img src="../images/home icons/adopt.jpeg" alt="home icon" class="nav-img">
+            <span class="nav-text">Adopt </span>
+        </div>
+        <div class="nav-items">
+            <img src="../images/home icons/contact.jpeg" alt="home icon" class="nav-img">
+            <span class="nav-text">Contact us </span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h3 style="text-align: center; font-size: 23px">
+            Fill out the Adoption form
+        </h3>
+        <img src="https://t4.ftcdn.net/jpg/01/99/00/79/360_F_199007925_NolyRdRrdYqUAGdVZV38P4WX8pYfBaRP.jpg" class="container-img">
+
+
+        <div>
+            <form action="">
+                <label for="name" class="label"> Enter your name : </label> <br>
+                <input type="text" class="input-box">
+                <label for="name" class="label"> Enter your Email : </label> <br>
+                <input type="mail" class="input-box">
+                <label for="name" class="label"> Enter your Phone : </label> <br>
+                <input type="number" class="input-box"><br>
+                <button type="submit" class="btn">Submit</button>
+    
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
