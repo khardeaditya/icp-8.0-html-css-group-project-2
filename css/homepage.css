@@ -209,3 +209,32 @@ header {
 .fotter-img {
     width: 100%;
 }
+
+
+/* Small Devices */ @media screen and (max-width: 600px){
+    .header-img {
+        height: 100px;
+    
+    }
+.header-title {
+    font-size: 20px;
+ }
+ .map-img {
+    height: 40px;
+}
+
+.location-text {
+    font-size: 10px;
+width: 80px;
+}
+
+.online {
+    height: 20px;
+    display: flex;
+}
+
+/* Normal Devices */ @media screen and (min-width: 601px) and (max-width: 768px){ }
+
+/* Tablets Devices */ @media screen and (min-width: 769px) and (max-width: 992px){ }
+
+/* Large Devices */ @media screen and (min-width: 993px) and (max-width: 1200px){ }
