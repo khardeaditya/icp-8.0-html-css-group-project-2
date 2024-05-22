@@ -83,9 +83,8 @@ transition: 0.5s;
 }
 
 .card:hover {
-    height: 200px;
-    width: 750px;
     transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .card-img {
