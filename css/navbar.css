@@ -1,5 +1,4 @@
 .nav-logo {
-    margin-left: -10px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -46,3 +45,29 @@
     background-color: #5b7b5d;
     transition: 1s;
 }
+
+/* Small Devices */ @media screen and (max-width: 600px){
+
+        .navbar {
+            flex-direction: row;
+            height: auto;
+        }
+
+        .nav-items {
+            margin-bottom: 10px;
+        }
+
+        .nav-items .nav-text {
+            font-size: 10px;
+        }
+
+        /* Adjust other styles as needed for smaller screens */
+    
+
+ }
+
+/* Normal Devices */ @media screen and (min-width: 601px) and (max-width: 768px){ }
+
+/* Tablets Devices */ @media screen and (min-width: 769px) and (max-width: 992px){ }
+
+/* Large Devices */ @media screen and (min-width: 993px) and (max-width: 1200px){ }
