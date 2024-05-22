@@ -67,7 +67,17 @@
  }
 
 /* Normal Devices */
- /* @media screen and (min-width: 601px) and (max-width: 768px){ } */
+  @media screen and (min-width: 601px) and (max-width: 768px){
+    .navbar {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .nav-items .nav-text {
+        font-size: 15px;
+    }
+
+   } 
 
 /* Tablets Devices */
  /* @media screen and (min-width: 769px) and (max-width: 992px){ } */
