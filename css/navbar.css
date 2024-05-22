@@ -1,0 +1,76 @@
+.nav-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #ACE1AF;
+    width: 100%;
+    height: 80.5px;
+    position: sticky;
+    Z-index: 10;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-items {
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-img {
+    height: 30px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.nav-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(19, 4, 4);
+
+}
+
+.nav-items:hover {
+    background-color: #5b7b5d;
+    transition: 1s;
+}
+
+/* Small Devices */ @media screen and (max-width: 600px){
+
+        .navbar {
+            flex-direction: row;
+            height: auto;
+        }
+
+        .nav-items {
+            margin-bottom: 10px;
+        }
+
+        .nav-items .nav-text {
+            font-size: 10px;
+        }
+
+        /* Adjust other styles as needed for smaller screens */
+    
+
+ }
+
+/* Normal Devices */
+ /* @media screen and (min-width: 601px) and (max-width: 768px){ } */
+
+/* Tablets Devices */
+ /* @media screen and (min-width: 769px) and (max-width: 992px){ } */
+
+/* Large Devices */
+ /* @media screen and (min-width: 993px) and (max-width: 1200px){ } */
