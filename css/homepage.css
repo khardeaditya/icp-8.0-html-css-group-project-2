@@ -228,18 +228,18 @@ header {
     display: flex;
     justify-content: center;
 margin-top: -10px;
-margin-left: -70px;
+margin-left: -40px;
 }
 
 .map-img {
     height: 40px;
-    margin: 20px 10px 20px 110px;
+    margin: 20px -10px 0px 60px;
 }
 
 .location-text {
     text-decoration: none;
     font-size: 13px;
-    width: 40%;
+    width: 60%;
     padding: 20px;
 
 }
