@@ -279,9 +279,7 @@ margin-left: -70px;
     border-radius: 5px;
     font-size: 10px;  
 }
-marquee{
-    scrollamount="10";
-}
+
 .content-heading {
  position: relative;
  top: -500px;
@@ -378,8 +376,11 @@ margin-left: 10px;
     left: 25%;
 }
 
-/* Normal Devices */ @media screen and (min-width: 601px) and (max-width: 768px){ }
+/* Normal Devices */
+ /* @media screen and (min-width: 601px) and (max-width: 768px){ } */
 
-/* Tablets Devices */ @media screen and (min-width: 769px) and (max-width: 992px){ }
+/* Tablets Devices */
+ /* @media screen and (min-width: 769px) and (max-width: 992px){ } */
 
-/* Large Devices */ @media screen and (min-width: 993px) and (max-width: 1200px){ }
+/* Large Devices */
+ /* @media screen and (min-width: 993px) and (max-width: 1200px){ } */
