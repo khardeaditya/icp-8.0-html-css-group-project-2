@@ -245,6 +245,9 @@ margin-left: -10%;
     margin-left: 20%;
 }
 
+/* Mobile Devices */ @media screen and (max-width: 600px){
+
+
 
 /* Small Devices */ @media screen and (max-width: 600px){
  body{
