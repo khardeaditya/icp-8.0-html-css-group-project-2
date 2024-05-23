@@ -64,12 +64,11 @@
             height: 20px;
         }
 
-        .nav-items {
-            margin-bottom: 10px;
-        }
+     
 
         .nav-items  {
-            margin-top: 7px;
+            height: 0px;
+            border-radius: 5px;
         }
         .nav-text {
             height: 10px;
