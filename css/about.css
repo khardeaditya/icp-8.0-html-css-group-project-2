@@ -86,11 +86,12 @@
 }
 
 .about-img {
-    height: 500px;
-    width: 550px;
+    height: 400px;
+    width: 400px;
     position: absolute;
-    top: 30px;
-    left: 950px
+    top: 50px;
+    left: 1110px
+    
 }
 
 .marquee {
