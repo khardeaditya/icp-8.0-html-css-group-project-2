@@ -8,6 +8,8 @@ body
     background-image:url('./../images/Dog_pics/brg.webp');
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
 .Dogs-container
 {
