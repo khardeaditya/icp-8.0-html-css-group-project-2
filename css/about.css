@@ -55,6 +55,29 @@ body {
     background-color: #e236b7;
     transition: 1s;
 }
+.about-1st-div
+{
+    position: relative;
+    top: -25px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.subtitle{
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 135px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+.about-img
+{
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: -1px;
+    left:1050px
 
-
+}
 </style>
