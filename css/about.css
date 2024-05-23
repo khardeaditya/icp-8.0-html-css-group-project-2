@@ -245,4 +245,27 @@
 
 }
 .footer-box2
+{
+    height: 80px;
+    margin-top:px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(39, 196, 244);
+    display: flex;
+    justify-content: space-around;
+
+}
+.line
+{
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+    position: absolute;
+    left: 300px;
+}
+.footer-logo
+{
+
+}
 </style>
