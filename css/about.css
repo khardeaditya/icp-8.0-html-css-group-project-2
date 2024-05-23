@@ -116,7 +116,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 45px;
-    color: rgba(17, 17, 17, 0.895);
+    color:rgb(20, 20, 20);
 }
 .city-container
 {
@@ -129,9 +129,19 @@
     color: #2f7bf5;
     font-size: 23px;
     font-weight: bold;
+   
 }
 .subtitle-sub
 {
     text-align: center;
+    margin-top: 40px;
+    font-size: 45px;
+    color:rgb(20, 20, 20);
+}
+.row-con
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 </style>
