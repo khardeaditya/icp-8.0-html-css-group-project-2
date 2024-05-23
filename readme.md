@@ -112,5 +112,4 @@ If you have any questions, need assistance, or want to provide feedback, please 
     Rupesh Mandage
 
 ## Conclusion
-
 Thank you for choosing ThePetNest. We’re dedicated to helping animals find their forever homes and supporting potential pet owners with the information and res~ources they need. Happy pet hunting!
