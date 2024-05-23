@@ -166,5 +166,19 @@
     color: #050505;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn:hover
+{
+    background-color:rgb(255, 68, 0);
+    box-shadow: 0px 0px 0px 1px rgb(84, 79, 230);
+}
+.btn-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 </style>
