@@ -335,12 +335,10 @@ margin-left: -40px;
     border-radius: 50%;
     height: 90px;
 }
-.dog-img
-
-.content-heading {
- position: relative;
- top: -500px;
-    font-size: 20px;
+    .content-heading {
+        position: relative;
+        top: -500px;
+           font-size: 25px;
 }
 .content{
     margin-top: -520px;
