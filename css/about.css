@@ -133,19 +133,24 @@
 }
 .subtitle-sub
 {
+    
     text-align: center;
-    margin-top: 40px;
+    margin-top: px;
     font-size: 45px;
     color:rgb(20, 20, 20);
 }
 .row-con
 {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
 }
 .qute
 {
-    
+    text-align: center;
+    margin-top: 40px;
+    font-size: 45px;
+    color:rgb(20, 20, 20);
 }
 </style>
