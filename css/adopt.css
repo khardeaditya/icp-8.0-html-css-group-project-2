@@ -11,7 +11,7 @@ body
     padding: 0;
     margin: 0;
 }
-.Dogs-container
+.pets-container
 {
     padding-top: 50px;
     margin-top: 30px;
@@ -30,7 +30,7 @@ justify-content: space-evenly;
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
-.dog-card {
+.pet-card {
     background-color: #F6EEC9;
     border: 2px solid #43741c;
     border-radius: 8px;
@@ -44,7 +44,7 @@ justify-content: space-evenly;
     font-size: 20px;
 }
 
-.dog-card-img
+.pet-card-img
 {
     max-width: 150px;
     height: 120px;
@@ -54,14 +54,11 @@ justify-content: space-evenly;
     box-shadow: 2px 2px 10px 5px rgb(138, 136, 136) ;
 }
 
-.dog-card-img:hover:hover {
+.pet-card-img:hover:hover {
 
     transform: scale(2.1);
 }
-.dog-card-img1:hover:hover {
 
-    transform: scale(2.1);
-}
 .adopt-btn {
     background-color: #EE4E4E;
     color: #fff;
@@ -79,42 +76,27 @@ justify-content: space-evenly;
     background-color: #ac1010;
     transform: scale(1.3);
 }
-@media screen and ( min-width:450px)and (max-width: 550px)
+@media screen and ( min-width:600px)
 { 
-    .nav-img {
-        height: 15px;
-        padding-left: 2px;
-        margin-right: 6px;
-        border-radius: 50%;
-        flex-direction: column;
-        justify-content: center;
-    }
+  
     
-    .nav-text {
-        font-size: 25px;
-        font-weight: bold;
-        color: rgb(19, 4, 4);
-        display: none;
-    }
+  
     .title
 {
-    padding-top: 70px;
-    font-size: 30px;
+    font-size: 40px;
     color: #ac1010;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-    .Dogs-container
+    .pets-container
 {
     padding-top: 50px;
     margin-top: 30px;
-    margin-left: 60px;
-    padding-left: 30px;
     display: inline;
     justify-content: space-evenly;
     align-items: center;   
 }
-    .dog-card {
+    .pets-card-img {
         background-color: #F6EEC9;
         border: 2px solid #43741c;
         border-radius: 8px;
@@ -122,8 +104,16 @@ justify-content: space-evenly;
         margin: 40px 60px;
         width: 300px;
         box-shadow: 2px 2px 10px 5px rgb(138, 136, 136) ;
-        float: left;
         text-align: center;
         font-size: 20px;
     }
+    .adopt-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .pet-card{
+
+
+    }
 }
+
