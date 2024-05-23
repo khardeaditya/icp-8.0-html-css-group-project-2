@@ -44,6 +44,9 @@
     text-decoration: none;
 
 }
+a{
+    text-decoration: none;
+}
 
 .nav-items:hover {
     background-color: #5b7b5d;
@@ -58,10 +61,11 @@
         }
 
         .nav-logo-img{
-            height: 30px;
+            height: 20px;
         }
         .nav-img{
             height: 20px;
+            display: none;
         }
 
      
