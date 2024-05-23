@@ -1,6 +1,6 @@
 # **ThePetNest Website**
 ## "Pets are incomplete without us similarly we are too incomplete without them."
-![ ](./../icp-8.0-html-css-group-project-2/images/bigdog4.jpg)
+![ ](./images/bigdog4.jpg)
 
 ## Introduction:
 
@@ -62,7 +62,7 @@ The Adopt Page is the heart of our website, featuring all available pets for ado
 This page is created by **Lokesh Rajgade**.
 The Contact Us Page contains all necessary information for getting in touch with us. This includes our email address, phone number, physical address, and a contact form for inquiries. We also provide links to our social media profiles. This page ensures that visitors can easily reach us for any questions or support.
 ## *Example Screenshot of Website.*
-![Example Screenshot of Website.](./../icp-8.0-html-css-group-project-2/images/readme-img.jpg)
+![Example Screenshot of Website.](./images/readme-img.jpg)
  
 ## *Visite to our website.*
 [Tap here .](https://the-pet-nest.netlify.app/)
