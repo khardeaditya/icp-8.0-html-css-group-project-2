@@ -699,10 +699,41 @@ body {
         font-size: 50px;
         color: rgb(20, 20, 20);
     }
-   
     
-
-} 
-
+    .btn {
+        height: 80px;
+        width: 300px;
+        border: none;
+    }
+    
+    .btn:hover {
+        background-color: rgb(255, 68, 0);
+        box-shadow: 0px 0px 0px 1px rgb(84, 79, 230);
+    }
+    
+    .btn-container {
+        top:50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    
+    .btn-a {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80px;
+        width: 300px;
+        margin-top: 20px;
+    
+    }
+    
+    .btn-a:hover {
+        background-color: yellow;
+        box-shadow: 0px 0px 10px 1px rgb(8, 0, 255);
+    }
+    
+}
 
  /* @media screen and (min-width: 993px) and (max-width: 1200px){ }
