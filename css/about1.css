@@ -625,6 +625,17 @@ body {
    } 
 
 @media screen and (min-width: 769px) and (max-width: 992px){ 
+    .about-1st-div {
+       height: 500px;
+    }
+    .subtitle {
+       
+        margin-top:100px;
+        left: 35px;
+        font-size: 65px;   
+    }
+    
+    
 
 } 
 
