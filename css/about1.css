@@ -571,6 +571,49 @@ body {
     }
     
     
+    .footer-box2 {
+        height: 125px;
+        margin-top: px;
+        display: flex;
+        width: 100%;
+        background-color: rgb(39, 196, 244);
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 200px;
+    
+    }
+    
+    .line {
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+        position: absolute;
+        left: 190px;
+        margin-top: -20px
+    }
+    
+    .footer-logo- {
+        cursor: pointer;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:-30px;
+    
+    }
+    
+    .copyright {
+    
+        margin-top:-55px;
+        color: black;
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    
     
     
     
