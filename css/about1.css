@@ -656,6 +656,49 @@ body {
         margin-top: -30px;
         font-size: 25px;
     }
+    .subtitle-box {
+    
+        height: 900px;
+        width: 100%;
+        background-color: #e6e6e6;
+    }
+    
+    .subtitle-heading {
+        margin-top: 50px;
+        font-size: 50px;
+        text-align: center;
+        color: rgb(20, 20, 20);
+        ;
+    }
+    
+    .city-container {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    
+    .city {  
+        font-size: 30px;
+    }
+    
+    .subtitle-sub {
+        margin-top:50px;
+        font-size: 50px;
+    }
+    .row-con {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+    
+    .qute {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 50px;
+        color: rgb(20, 20, 20);
+    }
    
     
 
