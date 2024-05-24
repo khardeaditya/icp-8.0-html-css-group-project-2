@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Reddit+Mono:wght@200..900&display=swap');
+>>>>>>> 9199d4392e3737189921d6b58580635d0c2ae651
 body {
     padding: 0;
     margin: 0;
@@ -92,6 +96,10 @@ body {
     padding-top: 70px;
     font-size: 20px;
     color: #ac1010;
+<<<<<<< HEAD
+=======
+    font-family: 'Poetsen One', serif;
+>>>>>>> 9199d4392e3737189921d6b58580635d0c2ae651
     text-align: center;
 }
     .container
