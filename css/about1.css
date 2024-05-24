@@ -464,6 +464,37 @@ body {
         margin-top: -30px;
         font-size: 25px;
     }
+    .subtitle-box {
+    
+        height: 900px;
+        width: 100%;
+        background-color: #e6e6e6;
+    }
+    
+    .subtitle-heading {
+        margin-top: 50px;
+        font-size: 40px;
+        text-align: center;
+        color: rgb(20, 20, 20);
+        ;
+    }
+    
+    .city-container {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    
+    .city {  
+        font-size: 25px;
+    }
+    
+    .subtitle-sub {
+        margin-top:50px;
+        font-size: 40px;
+    }
+    
     
     
     
