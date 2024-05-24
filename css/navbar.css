@@ -98,6 +98,9 @@ margin-top: 30px;
     margin-left: 20%;
 }
 
+.active-menu{
+    background-color: #365733;
+}
 
 /* Small Devices */ @media screen and (max-width: 600px){
 
