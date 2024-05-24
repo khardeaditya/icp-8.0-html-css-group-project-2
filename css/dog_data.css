@@ -1,27 +1,30 @@
+
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 
 body
 {
-    background-image:url('https://storage.needpix.com/rsynced_images/soft-927419_1280.jpg');
+    background-image:url('./../images/Dog_pics/brg.webp');
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
 .Dogs-container
 {
-    padding-top: 50px;
-    margin-top: 30px;
-    margin-left: 50px;
-    padding-left: 30px;
-    display: flexbox;
-    justify-content: space-;
-    align-items: center;   
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  
+    flex-wrap: wrap;
+    
 }
 .title
 {
     padding-top: 20px;
-    font-size: 50px;
+    font-size: 80px;
     color: #ac1010;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 .dog-card {
@@ -29,12 +32,22 @@ body
     border: 2px solid #43741c;
     border-radius: 8px;
     padding: 20px;
-    margin: 40px 60px;
-    width: 300px;
-    box-shadow: 2px 2px 10px 5px rgb(138, 136, 136) ;
+    margin: 40px 65px;
+    width:  220px;
+    box-shadow: 2px 2px 10px 5px rgba(138, 136, 136);
     float: left;
     text-align: center;
-    font-size: 20px;
+   font-size: 20px;
+}
+
+
+.dog-card h2 {
+    margin: 10px 0;
+    color: #495057;
+}
+.dog-card p {
+    margin: 10px 0;
+    color: #6c757d;
 }
 
 .dog-card-img
@@ -47,13 +60,8 @@ body
     box-shadow: 2px 2px 10px 5px rgb(138, 136, 136) ;
 }
 
-.dog-card-img:hover:hover {
-
-    transform: scale(2.1);
-}
-.dog-card-img1:hover:hover {
-
-    transform: scale(2.1);
+.dog-card img:hover:hover {
+    transform: scale(1.7);
 }
 .adopt-btn {
     background-color: #EE4E4E;
@@ -64,8 +72,7 @@ body
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 25px;
+ margin-left: 30px;
     transition: transform 0.3s;
 }
 .adopt-btn:hover {
@@ -86,10 +93,10 @@ body
 {
     padding-top: 50px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 60px;
     padding-left: 30px;
     display: inline;
-    justify-content: space-;
+    justify-content: space-evenly;
     align-items: center;   
 }
     .dog-card {
