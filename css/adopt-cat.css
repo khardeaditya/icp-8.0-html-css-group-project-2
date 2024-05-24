@@ -85,23 +85,8 @@ body {
     text-decoration: none;
     color: #6c757d;
 }
-@media screen and ( min-width:450px)and (max-width: 550px)
+@media screen and(max-width: 600px)
 { 
-    .nav-img {
-        height: 15px;
-        padding-left: 2px;
-        margin-right: 6px;
-        border-radius: 50%;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .nav-text {
-        font-size: 25px;
-        font-weight: bold;
-        color: rgb(19, 4, 4);
-        display: none;
-    }
     .header
 {
     padding-top: 70px;
