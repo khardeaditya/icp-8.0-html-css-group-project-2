@@ -434,6 +434,39 @@ body {
 
         
     }
+    .subtitle {
+       
+        margin-top:30px;
+        left: 165px;
+        font-size: 55px;   
+    }
+    
+    .span {
+        position: absolute;
+        margin-top: 168px;
+        left: 50px;
+        padding: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .about-img {
+        height: 230px;
+        width: 220px;
+        position: absolute;
+        top: 240px;
+        left: 265px;
+        
+    }
+    
+    .marquee {
+        position: absolute;
+        margin-top: -30px;
+        font-size: 25px;
+    }
+    
+    
+    
 
     
 
