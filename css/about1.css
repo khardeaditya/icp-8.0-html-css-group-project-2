@@ -494,6 +494,21 @@ body {
         margin-top:50px;
         font-size: 40px;
     }
+    .row-con {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 25px;
+    }
+    
+    .qute {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+        color: rgb(20, 20, 20);
+    }
+    
+    
     
     
     
