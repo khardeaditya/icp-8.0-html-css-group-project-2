@@ -1,6 +1,6 @@
 # **ThePetNest Website**
 ## "Pets are incomplete without us similarly we are too incomplete without them."
-![ ](./images/bigdog4.jpg)
+![ ](./images/index/bigdog4.jpg)
 
 ## Introduction:
 
