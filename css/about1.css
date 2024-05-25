@@ -15,10 +15,11 @@ body {
 .subtitle {
     position: absolute;
     margin-top: 100px;
-    left: 300px;
+    left: 350px;
     padding: 0px;
     font-size: 65px;
     color: rgb(20, 20, 20);
+    ;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
@@ -26,9 +27,9 @@ body {
 .span {
     position: absolute;
     margin-top: 300px;
-    left: 30px;
+    left: 150px;
     padding: 0px;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(236, 104, 4);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -38,8 +39,8 @@ body {
     height: 400px;
     width: 400px;
     position: absolute;
-    top: 50px;
-    left: 1110px
+    top: 140px;
+    left: 68%;
 }
 
 .marquee {
@@ -130,13 +131,14 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 .btn-a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     height: 80px;
     width: 400px;
     border: none;
@@ -150,7 +152,6 @@ body {
     cursor: pointer;
     margin-top: 20px;
 
-
 }
 
 .btn-a:hover {
@@ -158,6 +159,55 @@ body {
     box-shadow: 0px 0px 10px 1px rgb(8, 0, 255);
 }
 
+.footer-box {
+    height: 80px;
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(39, 196, 244);
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.nav-items-f {
+
+
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.nav-img-f {
+    height: 30px;
+    margin-right: 6px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+}
+
+.nav-text-f {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.footer-box2 {
+    height: 150px;
+    margin-top: px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(39, 196, 244);
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
 
 .line {
     text-align: center;

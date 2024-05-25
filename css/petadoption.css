@@ -9,15 +9,16 @@ body {
 
 
 .container {
-    width: 500px;
-    border: 1px solid black;
+    width: 400px;
+    background-color: #F6EEC9;
     border-radius: 10px;
+    padding: 10px;
     display: block;
-    margin: 70px auto;
+    margin: 15px auto;
+    
     display: block;
     display: center;
-    box-shadow: 5px 5px 5px 5px #e6e6ff;
-    
+box-shadow: 0 0 10px 5px black;    
 
 
 }
@@ -43,7 +44,7 @@ body {
 }
 
 .input-box {
-    width: 350px;
+    width:250px;
     height: 20px;
     margin: 7px 10px 7px 70px;
     padding: 5px;
@@ -59,7 +60,8 @@ body {
 
 .btn {
     display: block;
-    margin: 10px auto;
+    margin: auto;
+    
     padding: 10px 15px;
     border: 2px solid #000;
     border-radius: 15px;
@@ -109,5 +111,14 @@ body {
     border: #000;
     border-radius: 15px;
     text-align: center;
+
+}
+
+
+@media screen and (max-width: 600px) {
+.container{
+width: 400px;
+
+}
 
 }
