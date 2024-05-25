@@ -139,7 +139,6 @@ body{
 
 
 
-
         .getstart p {
             font-size: 20px;
             padding: 50px;
@@ -188,9 +187,14 @@ body{
         }
 
         .card-boxx {
-            background-color: #dce5c6;
-            border: 1px solid #ddd;
+       
             padding: 20px;
+
+                box-shadow:0 0 10px 5px black;
+                background-color: transparent;
+            
+            
+
             margin: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
