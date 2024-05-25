@@ -70,7 +70,6 @@ body {
 
 .card {
     height: 100px;
-    width: 650px;
     margin: 30px;
     padding: 5px;
     margin-left: -0px;
@@ -221,16 +220,17 @@ header {
 }
 
 .adopt-card-heading{
-   font-size: 20px;
+   font-size: 16px;
 }
 .adopt-card-desc{
-    font-size: 15px;
+    font-size: 13px;
 }
 .btn {
     height: 20px;
     width: 20%;
     border-radius: 5px;
     font-size: 10px;  
+    margin-top:10px;
 }
 
 
@@ -352,10 +352,6 @@ margin-left: 10px;
 
 /* Normal Devices */ 
  @media screen and (min-width: 601px) and (max-width: 768px){
-    body{
-    }
- 
-   
    
    .img {
        height: 350px;
