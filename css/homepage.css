@@ -283,11 +283,12 @@ margin-left: 10px;
 .card {
     height: 50px;
     padding: 20px;
-    margin: 10px;
+    margin: 8px;
  margin-left: 0px;
+ 
 }
 .right-content{
-    padding: 30px;
+    padding: 0 30px;
 }
 
 
@@ -298,7 +299,7 @@ margin-left: 10px;
 
 .card-img {
     height: 50px;
-    margin: 0 20px;
+    margin-left:5px;
 }
 
 .card-heading {
@@ -313,6 +314,7 @@ margin-left: 10px;
 .adoptlove-content {
     min-width: 100%;
     padding: 20px 0px;
+    margin-top: 10px;
     background-color: #E0FBE2;
 
 }
