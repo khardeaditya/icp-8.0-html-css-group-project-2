@@ -85,7 +85,8 @@ body {
 
 .card:hover {
     transition: 0.5s;
-    transform: scale(1.2);
+    transform: scale(1.0);
+    cursor: pointer;
 }
 
 .card-img {
